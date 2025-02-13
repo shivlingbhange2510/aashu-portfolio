@@ -17,6 +17,16 @@ export const Education = () => {
           <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
             <div className={styles.aboutItemText}>
+              <h3>Masai School  </h3>
+              <h5> Oct. 2024  to  Feb. 2025 </h5>
+              <p>
+                I have completed an intensive Frontend Development Program from Masai School, where I gained hands-on experience in React.js, JavaScript,Redux,Chakra UI HTML, CSS, Git
+              </p>
+            </div>
+          </li>
+          <li className={styles.aboutItem}>
+            <img src={getImageUrl("about/cursorIcon.png")} alt="Cursor icon" />
+            <div className={styles.aboutItemText}>
               <h3>Bachelor of Technology
               (Computer Science)</h3>
               <p>
@@ -25,16 +35,7 @@ export const Education = () => {
               </p>
             </div>
           </li>
-          {/* <li className={styles.aboutItem}>
-            <img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />
-            <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
-              <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
-              </p>
-            </div>
-          </li> */}
+       
           {/* <li className={styles.aboutItem}>
             <img src={getImageUrl("about/cursorIcon.png")} alt="UI icon" />
             <div className={styles.aboutItemText}>
