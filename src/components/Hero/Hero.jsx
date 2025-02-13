@@ -20,7 +20,7 @@ export const Hero = () => {
       <img
         // src={getImageUrl("hero/heroImage.png")}
         src={aashu}
-        style={{width:'200px', height:"200px", borderRadius:'50%'}}
+        style={{width:'230px', height:"280px", borderRadius:'5%'}}
         alt="Hero image of me"
         className={styles.heroImg}
       />

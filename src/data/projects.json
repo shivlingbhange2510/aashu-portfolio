@@ -1,9 +1,9 @@
 [
   {
     "title": "CrystalVision",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": [" HTML", "CSS", "JavaScrit"],
+    "imageSrc": "projects/project_img.png",
+    "description": "A responsive and interactive Lenskart-inspired e-commerce website",
+    "skills": [" HTML", "CSS", "JavaScript"],
     "demo": "http://vandana-jain-123.github.io/CrystalVision-Project-/index.html",
     "source": "http://github.com/Vandana-Jain-123/CrystalVision-Project-"
   }

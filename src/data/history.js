@@ -2,7 +2,7 @@ const history=[
   {
     "role": "Front-End Developer",
     "organisation": "VISAS Pvt.Ltd.",
-    "startDate": "Sept, 2022",
+    "startDate": "Sept, 2024",
     "endDate": "Present",
     "experiences": ["API Integrations", "Reduced load times by 50%"],
     "imageSrc": "history/google.png"
