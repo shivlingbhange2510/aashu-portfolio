@@ -1,10 +1,10 @@
 const history=[
   {
-    "role": "Front-End Developer",
+    "role": "Front-End Developer(Intern)",
     "organisation": "VISAS Pvt.Ltd.",
-    "startDate": "Sept, 2024",
-    "endDate": "Present",
-    "experiences": ["API Integrations", "Reduced load times by 50%"],
+    "startDate": "April, 2024",
+    "endDate": "August,2024",
+    "experiences": ["Developed and optimized responsive web applications using React.js, JavaScript, HTML, CSS.","API Integrations", "Reduced load times by 50%"],
     "imageSrc": "history/google.png"
   },
   // {
