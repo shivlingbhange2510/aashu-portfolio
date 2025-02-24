@@ -36,6 +36,31 @@
   gap: 11px;
 }
 
+@keyframes pulseEffect {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes bounceEffect {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
 .skillImageContainer {
   background-color: var(--color-secondary);
   border-radius: 100%;
@@ -44,6 +69,8 @@
   justify-content: center;
   width: 120px;
   height: 120px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    animation: pulseEffect 2s infinite ease-in-out;
 }
 
 .skillImageContainer img {
