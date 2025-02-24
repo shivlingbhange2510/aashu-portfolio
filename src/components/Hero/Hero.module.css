@@ -5,7 +5,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 49px;
+  margin-top: 100px;
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
@@ -31,13 +31,40 @@
   );
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+    animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+
+  to {
+    width: 100%;
+  }
 }
 
 .description {
-  font-size: 25px;
+  font-size: 24px;
   font-family: var(--font-roboto);
   margin-bottom: 52px;
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  display: inline-block;
+  border-right: 3px solid var(--color-text);
+
+  width: 0;
+
+  animation: typing 3s steps(30, end) forwards, blink 0.7s infinite;
 }
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
 
 .contactBtn {
   text-decoration: none;

@@ -9,18 +9,18 @@ export const Hero = () => {
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Vandana</h1>
         <p className={styles.description}>
-          I'm a full-stack web developer having hands   experience using React and
-          NodeJS.
-           {/* Reach out if you'd like to learn more! */}
+          I am a Frontend Developer with hands-on experience in JavaScript and React.
+
+          {/* Reach out if you'd like to learn more! */}
         </p>
-        <a target="_blank" href="https://drive.google.com/file/d/1_n7GBV55dPF8j4JdFiHKS9NIw3VPuE7L/view" className={styles.contactBtn}>
+        <a target="_blank" href="https://drive.google.com/drive/folders/1YfAD1JYPuI1CG1DkmOspRPE64HtAlae2?usp=sharing" className={styles.contactBtn}>
           Resume
         </a>
       </div>
       <img
         // src={getImageUrl("hero/heroImage.png")}
         src={aashu}
-        style={{width:'230px', height:"280px", borderRadius:'5%'}}
+        style={{ width: '230px', height: "280px", borderRadius: '5%' }}
         alt="Hero image of me"
         className={styles.heroImg}
       />
