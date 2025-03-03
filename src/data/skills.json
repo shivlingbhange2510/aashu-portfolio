@@ -1,29 +1,40 @@
 [
   {
-    "title": "HTML",
-    "imageSrc": "skills/html.png"
+    "title": "React",
+    "imageSrc": "skills/react.png"
   },
+
   {
-    "title": "CSS",
-    "imageSrc": "skills/css.png"
+    "title": "Redux",
+    "imageSrc": "skills/redux.png"
   },
   {
     "title": "JavaScript",
     "imageSrc": "skills/javascript.png"
   },
   {
-    "title": "React",
-    "imageSrc": "skills/react.png"
+    "title": "Firebase",
+    "imageSrc": "skills/firebaselogo.png"
   },
+  {
+    "title": "CSS",
+    "imageSrc": "skills/css.png"
+  },
+  {
+    "title": "Chakra UI",
+    "imageSrc": "skills/chakraUI.png"
+  },
+  {
+    "title": "HTML",
+    "imageSrc": "skills/html.png"
+  },
+
   {
     "title": "Node",
     "imageSrc": "skills/node.png"
   },
   {
-    "title": "Redux",
-    "imageSrc": "skills/redux.png"
+    "title": "Bootstrap",
+    "imageSrc": "skills/bootstrap.jpeg"
   }
- 
- 
-  
 ]
